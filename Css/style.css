@@ -1,0 +1,869 @@
+/* Universal section starts----------- */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+/* Universal section ends----------- */
+/* Header section starts------------------------------------------------ */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+#btn-1 {
+    color: #333;
+    padding: 10px 40px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#btn-1:hover {
+    background-color: #fff;
+    border: 1px solid black;
+    transition: 0.3s ease-in;
+}
+
+/* Header section ends------------------------------------------------ */
+/* Banner section starts------------------------ */
+.banner-section {
+    background-image: url(/image/electrical-technician-looking-focused-while-working-switchboard-with-fuses\ 1.png);
+    background-size: cover;
+    padding: 80px 0;
+    background-position: center;
+}
+
+
+
+.banner-text h1 {
+    color: #fff;
+    font-size: 50px;
+    padding: 0px;
+
+}
+
+.banner-text p {
+    color: #fff;
+    margin-bottom: 20PX;
+    font-size: 20px;
+}
+
+/* Banner section ends------------------------ */
+/* Commercial-section-child starts----------------------------------- */
+.Commercial-section-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Commercial-section {
+    padding: 63px 0;
+}
+
+.image-commercial {
+    padding-right: 59px;
+}
+
+.text-section h2 {
+    font-size: 35px;
+}
+
+.text-section p {
+    margin-bottom: 34px;
+}
+
+#ptext {
+    color: blue;
+    text-transform: uppercase;
+    font-size: bolder;
+}
+
+/* Commercial-section-child endss----------------------------------- */
+/* card-section starts-------------------------------------------------------- */
+.our-services p {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.our-services h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.our-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 h4 {
+    font-size: 22px;
+}
+
+.card-1 {
+    background-color: white;
+    padding: 15px;
+    margin-right: 28px;
+    border-radius: 20px;
+}
+
+.card-section {
+    background-color: #CBD5E1;
+    padding: 145px 0;
+}
+
+.card-section-child-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-4 {
+    color: white;
+    padding: 20px 20px;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.btn-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+
+/* card-section ends-------------------------------------------------------- */
+/* Service -section-strats------------------------------------------ */
+.service-section-logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    display: flex;
+
+}
+
+.left-logo {
+    margin-right: 130px;
+}
+
+.service-section-child {
+    display: flex;
+}
+
+.service-section-logo i {
+    margin-right: 10px;
+    color: blue;
+}
+
+.service-section-logo p {
+    font-weight: bold;
+}
+
+.service-section {
+    padding: 90px 0;
+}
+
+.left-service-section p,
+h2 {
+    padding-bottom: 10px;
+}
+
+/* Service -section-ends------------------------------------------ */
+/* Footer section starts----------------------------------------------------------- */
+.footer-section {
+    background-color: #122948;
+    color: white;
+}
+
+.footer-links li {
+    list-style: none;
+
+}
+
+.footer-section-child-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links li a {
+    color: white;
+}
+
+.footer-links li a i {
+    margin-right: 10px;
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    padding: 68px 0;
+}
+
+.main-div-footer h3 {
+    padding-bottom: 20px;
+}
+
+/* Footer section ends----------------------------------------------------------- */
+
+/* Media query starts---------------------------------------------------- */
+/* =============================================================== */
+/* =============================================================== */
+/* =============================================================== */
+/* =============================================================== */
+/* =============================================================== */
+
+/* for extra large scale */
+@media (min-width:1200px){
+    body {
+        padding: 0 10px;
+    }
+
+    /* for navbar */
+    /* .row {
+        flex-direction: column;
+    } */
+
+    .logo {
+        text-align: center;
+    }
+
+    /* .menu {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    } */
+
+    .nav-links li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        padding: 10px 0;
+    }
+
+    .header-section {
+        padding: 15px 0;
+    }
+
+    /* for navbar */
+    /* for hero section */
+    .banner-section {
+        padding: 20px 20px;
+        height: 100vh;
+    }
+
+    /* \end{code} */
+
+    /* for commercial section */
+    /* .Commercial-section-child {
+        flex-direction: column;
+    } */
+
+    .image-commercial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial img {
+        padding: 10px 0;
+    }
+
+    .text-section p,
+    h2 {
+        text-align: center;
+        padding: 0 10px;
+
+    }
+
+    .btn-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial {
+        padding-right: 0px;
+    }
+
+    /* for commercial section ends*/
+    /* card-section starts--------------------- */
+    .card-section-child-child {
+        padding: 10px 0;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .card-1 {
+        margin: 10px 0;
+        padding: 10px 20px;
+        
+
+    }
+
+    /* card-section ends--------------------- */
+    /* Service-section starts--------------------------- */
+    .service-section-child {
+        padding: 10px 0;
+        /* flex-direction: column; */
+    }
+
+    .left-service-section {
+        text-align: center;
+    }
+
+    .main-logo {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left-logo {
+        text-align: center;
+    }
+
+    .right-service-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Service-section ends--------------------------- */
+    /* footer-section starts----------------------------- */
+    .footer-section-child-left {
+        /* flex-direction: column; */
+        text-align: center;
+    }
+
+    .footer-links li {
+        margin-bottom: 0;
+    }
+
+    .main-div-footer {
+        padding: 15px 0;
+    }
+
+    /* footer-section ends----------------------------- */
+}
+
+/* for large screen */
+@media (min-width:992px) and (max-width:1199.99px) {
+    body {
+        padding: 0 10px;
+    }
+
+    /* for navbar */
+    .row {
+        flex-direction: column;
+
+
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        padding: 10px 0;
+    }
+
+    .header-section {
+        padding: 15px 0;
+    }
+
+    /* for navbar */
+    /* for hero section */
+    .banner-section {
+        padding: 20px 20px;
+        height: 100vh;
+    }
+
+    /* \end{code} */
+    /* for commercial section */
+    .Commercial-section-child {
+        flex-direction: column;
+    }
+
+    .image-commercial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial img {
+        padding: 10px 0;
+    }
+
+    .text-section p,
+    h2 {
+        text-align: center;
+        padding: 0 10px;
+
+    }
+
+    .btn-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial {
+        padding-right: 0px;
+    }
+
+    /* for commercial section ends*/
+    /* card-section starts--------------------- */
+    .card-section-child-child {
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-1 {
+        margin: 10px 0;
+        width: 500px;
+
+    }
+
+    /* card-section ends--------------------- */
+    /* Service-section starts--------------------------- */
+    .service-section-child {
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    .left-service-section {
+        text-align: center;
+    }
+
+    .main-logo {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left-logo {
+        text-align: center;
+    }
+
+    .right-service-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Service-section ends--------------------------- */
+    /* footer-section starts----------------------------- */
+    .footer-section-child-left {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links li {
+        margin-bottom: 0;
+    }
+
+    .main-div-footer {
+        padding: 15px 0;
+    }
+
+    /* footer-section ends----------------------------- */
+}
+
+/* for medium screen */
+@media (min-width:768px) and (max-width:991.98px) {
+    body {
+        padding: 0 10px;
+    }
+
+    /* for navbar */
+    .row {
+        flex-direction: column;
+
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        padding: 10px 0;
+    }
+
+    .header-section {
+        padding: 15px 0;
+    }
+
+    /* for navbar */
+    /* for hero section */
+    .banner-section {
+        padding: 20px 20px;
+        height: 100vh;
+    }
+
+    .banner-text p,
+    h1 {
+        text-align: center;
+    }
+
+   
+    /* \end{code} */
+    /* for commercial section */
+    .Commercial-section-child {
+        flex-direction: column;
+    }
+
+    .image-commercial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial img {
+        padding: 10px 0;
+    }
+
+    .text-section p,
+    h2 {
+        text-align: center;
+        padding: 0 10px;
+
+    }
+
+    .btn-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial {
+        padding-right: 0px;
+    }
+
+    /* for commercial section ends*/
+    /* card-section starts--------------------- */
+    .card-section-child-child {
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-1 {
+        margin: 10px 0;
+        width: 500px;
+
+    }
+
+    /* card-section ends--------------------- */
+    /* Service-section starts--------------------------- */
+    .service-section-child {
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    .left-service-section {
+        text-align: center;
+    }
+
+    .main-logo {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left-logo {
+        text-align: center;
+    }
+
+    .right-service-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Service-section ends--------------------------- */
+    /* footer-section starts----------------------------- */
+    .footer-section-child-left {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links li {
+        margin-bottom: 0;
+    }
+
+    .main-div-footer {
+        padding: 15px 0;
+    }
+
+    /* footer-section ends----------------------------- */
+
+
+}
+
+/* =============================================== */
+/* for extra small screen */
+
+@media(max-width:575.98px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    /* for navbar */
+    .row {
+        flex-direction: column;
+
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        padding: 10px 0;
+    }
+
+    .header-section {
+        padding: 15px 0;
+    }
+
+    /* for navbar */
+    /* for hero section */
+
+    .banner-text p,
+    h1 {
+        text-align: center;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+    }
+
+    .banner-text h1 {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+   
+
+    /* \end{code} */
+    /* for commercial section */
+    .Commercial-section-child {
+        flex-direction: column;
+    }
+
+    .image-commercial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial img {
+        padding: 10px 0;
+    }
+
+    .text-section p,
+    h2 {
+        text-align: center;
+        padding: 0 10px;
+
+    }
+
+    .btn-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-commercial {
+        padding-right: 0px;
+    }
+
+    .image-commercial img {
+        height: 300px;
+        width: 300px;
+    }
+
+    /* for commercial section ends*/
+     /* card-section starts--------------------- */
+     .card-section-child-child {
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-1 {
+        margin: 10px 0;
+        width: 70%;
+        /* height: 100%; */
+
+
+    }
+    .card-1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .card-section{
+        padding: 30px 0;
+    }
+
+    /* card-section ends--------------------- */
+/* service-section starts-------------- */
+.service-section-child {
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+.left-service-section {
+    text-align: center;
+}
+
+.main-logo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-logo {
+    text-align: center;
+}
+
+.right-service-section {
+    display: flex;
+    justify-content: center;
+}
+.service-section-logo p{
+    font-size: 10px;
+}
+.service-section-image img{
+    height: 300px;
+    width: 300px;
+}
+
+}
+
+/* footer section ends--------------------------- */
+@media(max-width:575.98px){
+    .footer-section-child-left{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .hero-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Media query ends---------------------------------------------------- */
